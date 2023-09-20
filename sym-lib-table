@@ -4,4 +4,5 @@
   (lib (name "Memory_Flash")(type "Legacy")(uri "${KIPRJMOD}/Memory_Flash/Memory_Flash.lib")(options "")(descr ""))
   (lib (name "BM04B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/BM04B-SRSS-TB_LF__SN_/BM04B-SRSS-TB_LF__SN_.kicad_sym")(options "")(descr ""))
   (lib (name "LMZ21701SILR")(type "KiCad")(uri "${KIPRJMOD}/LMZ21701SILR/LMZ21701SILR.kicad_sym")(options "")(descr ""))
+  (lib (name "280372-1")(type "KiCad")(uri "${KIPRJMOD}/280372-1/280372-1.kicad_sym")(options "")(descr ""))
 )
