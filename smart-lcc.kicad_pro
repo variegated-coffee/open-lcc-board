@@ -187,6 +187,10 @@
         {
           "diameter": 0.45,
           "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -449,8 +453,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
-        "via_diameter": 1.6,
-        "via_drill": 0.8,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
         "wire_width": 6
       },
       {
@@ -477,8 +481,7 @@
     "net_colors": null,
     "netclass_assignments": {
       "12V_OLED": "12V",
-      "Net-(D6-A)": "12V",
-      "VIN": "12V"
+      "VIN_DEBUG": "12V"
     },
     "netclass_patterns": [
       {
