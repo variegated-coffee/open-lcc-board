@@ -5,4 +5,6 @@
   (lib (name "BM04B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/BM04B-SRSS-TB_LF__SN_/")(options "")(descr ""))
   (lib (name "LMZ21701SILR")(type "KiCad")(uri "${KIPRJMOD}/LMZ21701SILR/")(options "")(descr ""))
   (lib (name "280372-1")(type "KiCad")(uri "${KIPRJMOD}/280372-1")(options "")(descr ""))
+  (lib (name "TPS562210ADDFR")(type "KiCad")(uri "${KIPRJMOD}/TPS562210ADDFR/")(options "")(descr ""))
+  (lib (name "TFT_1.47IN_172X320_12P")(type "KiCad")(uri "${KIPRJMOD}/TFT_1.47IN_172X320_12P/")(options "")(descr ""))
 )
