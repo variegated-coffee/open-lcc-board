@@ -64,5 +64,6 @@ This revision hasn't been completely manufactured, and I don't intend to do that
 
 #### Changes from R2B
 
-* Replaced the Schottky Diodes with two LM5050-1 OR-ing controllers. 
+* Replaced the Schottky Diodes with two LM5050-1 OR-ing controllers.
+* Connected SD card DET_A to GND, and removed the connection from the RP2040. 
 * Widened traces and trace clearances, and added copper pours for improved manufacturability.
