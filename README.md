@@ -4,6 +4,9 @@ Schematics and PCB files for the main Open LCC hardware. Licensed under the CERN
 
 This is an evolution of [magnusnordlander/smart-lcc](https://github.com/magnusnordlander/smart-lcc).
 
+<img src=".github/r2a_front.jpeg" width="300px" style="max-width: 300px" />
+<img src=".github/r2a_back.jpeg" width="300px" style="max-width: 300px" />
+
 ## Disclaimer
 
 Anything you do with this, you do at your own risk. Components have been fried already during the course of this project. Your machine uses both line voltage power, high pressured hot water, steam and other dangerous components. Risks include but are not limited to, damaging the machine, personal injury, property damage and summoning dead Cthulhu from his sleep at R'lyeh.
