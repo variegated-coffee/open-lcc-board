@@ -65,6 +65,9 @@ Latest manufactured revision, though if you want one of the boards, you may want
 
 This revision hasn't been completely manufactured, and I don't intend to do that either. I have ordered non-assembled PCBs, and will verify that the OR-ing controller design works as intended.
 
+**The first attempt att verifying the OR-ing controller design was a failure. As of right now, you shouldn't order R2B.**
+
+
 #### Changes from R2B
 
 * Replaced the Schottky Diodes with two LM5050-1 OR-ing controllers.
