@@ -61,15 +61,24 @@ Latest manufactured revision, though if you want one of the boards, you may want
 * The Schottky diodes do not provide adequate power supply reverse current protection. **DO NOT SUPPLY POWER FROM BOTH A DEBUG BOARD AND A CONTROL BOARD SIMULTANEOUSLY**
 * It is unnecessary to connect both SD_DET_A and SD_DET_B to an MCU.
 
-### R2B (main branch)
+### R2B (r2b branch)
 
-This revision hasn't been completely manufactured, and I don't intend to do that either. I have ordered non-assembled PCBs, and will verify that the OR-ing controller design works as intended.
+This revision hasn't been completely manufactured, and I don't intend to ever do that. I did order PCBs and verify the OR-ing controller subcircuit though, which is why there's now a R2C.
 
-**The first attempt att verifying the OR-ing controller design was a failure. As of right now, you shouldn't order R2B.**
-
-
-#### Changes from R2B
+#### Changes from R2A
 
 * Replaced the Schottky Diodes with two LM5050-1 OR-ing controllers.
 * Connected SD card DET_A to GND, and removed the connection from the RP2040. 
 * Widened traces and trace clearances, and added copper pours for improved manufacturability.
+
+#### Errata
+
+* The LM5050-1 and the MOSFET have reverse leakage currents totalling 0.6 mA. While this is unlikely to cause any issues in the real world, adding pulldown resistors seems prudent.
+
+### R2C (main branch)
+
+This revision hasn't been completely manufactured either (I'm running R2A in my machine), and as of writing, I don't have any plans to do so. Considering the small changes from R2B and R2A, which have been partially verified and fully verified respectively though, everything should work a treat.
+
+#### Changes from R2B
+
+* Added 18K7 pulldown resistors to the power supply rails.
