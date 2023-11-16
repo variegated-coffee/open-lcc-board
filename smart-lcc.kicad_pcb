@@ -2770,7 +2770,7 @@
     (property "ki_keywords" "N-Channel Switching MOSFET")
     (path "/1bfa586d-faca-473c-a60d-bb096555e3ae")
     (attr smd)
-    (fp_text reference "Q4" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "Q4" (at 0 -2.4) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bdc8a7cf-400c-48cf-8964-279e9d1011f4)
     )
@@ -5935,7 +5935,7 @@
     (property "ki_keywords" "quartz ceramic resonator oscillator")
     (path "/983b8be0-b074-4a01-9179-8e6bdc5579a9")
     (attr smd)
-    (fp_text reference "Y1" (at 0 -2.2 90) (layer "F.SilkS")
+    (fp_text reference "Y1" (at 0 -2.2 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1d3b6121-a765-4095-8ee0-7eb9f7f0540b)
     )
@@ -7145,7 +7145,7 @@
   (gr_text "On Board" (at 68.7 56.65) (layer "F.SilkS") (tstamp df4cec49-445e-494f-8001-b8df93fdd672)
     (effects (font (size 0.5 0.5) (thickness 0.07)) (justify left bottom))
   )
-  (gr_text "GP48" (at 68.2 67.15) (layer "F.SilkS") (tstamp e75c981b-3d89-4680-8f7d-fe60e111b50b)
+  (gr_text "GP48" (at 68.2 67.75) (layer "F.SilkS") (tstamp e75c981b-3d89-4680-8f7d-fe60e111b50b)
     (effects (font (size 0.5 0.5) (thickness 0.07)) (justify left bottom))
   )
   (gr_text "K" (at 71.2 65.5) (layer "F.SilkS") (tstamp ec01a24d-c658-4d08-855a-155d34bc8e30)
