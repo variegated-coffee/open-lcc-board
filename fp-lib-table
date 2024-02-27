@@ -7,4 +7,5 @@
   (lib (name "280372-1")(type "KiCad")(uri "${KIPRJMOD}/280372-1")(options "")(descr ""))
   (lib (name "TPS562210ADDFR")(type "KiCad")(uri "${KIPRJMOD}/TPS562210ADDFR/")(options "")(descr ""))
   (lib (name "TFT_1.47IN_172X320_12P")(type "KiCad")(uri "${KIPRJMOD}/TFT_1.47IN_172X320_12P/")(options "")(descr ""))
+  (lib (name "FlexibleFPC")(type "KiCad")(uri "${KIPRJMOD}/FlexibleFPC")(options "")(descr ""))
 )

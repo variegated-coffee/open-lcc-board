@@ -7662,7 +7662,7 @@
     (property "Value" "F0503-ZV-24-20T-R" (at 41.91 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "2N7002:FPC_24" (at 40.64 144.78 0)
+    (property "Footprint" "FlexibleFPC:Flexible24Pin" (at 40.64 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 144.78 0)
