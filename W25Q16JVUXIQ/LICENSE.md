@@ -1,0 +1,1 @@
+The files in this directory are provided by SnapEDA, and are licensed under CC-BY-SA 4.0 with Design Exception 1.0.

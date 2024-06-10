@@ -8,4 +8,8 @@
   (lib (name "TPS562210ADDFR")(type "KiCad")(uri "${KIPRJMOD}/TPS562210ADDFR/")(options "")(descr ""))
   (lib (name "TFT_1.47IN_172X320_12P")(type "KiCad")(uri "${KIPRJMOD}/TFT_1.47IN_172X320_12P/")(options "")(descr ""))
   (lib (name "FlexibleFPC")(type "KiCad")(uri "${KIPRJMOD}/FlexibleFPC")(options "")(descr ""))
+  (lib (name "Molex_5051101892")(type "KiCad")(uri "${KIPRJMOD}/Molex_5051101892")(options "")(descr ""))
+  (lib (name "ul_PTS815-SJM-250-SMTR-LFS")(type "KiCad")(uri "${KIPRJMOD}/ul_PTS815-SJM-250-SMTR-LFS")(options "")(descr ""))
+  (lib (name "W25Q16JVUXIQ")(type "KiCad")(uri "${KIPRJMOD}/W25Q16JVUXIQ")(options "")(descr ""))
+  (lib (name "VariegatedCoffeeLogo")(type "KiCad")(uri "${KIPRJMOD}/VariegatedCoffeeLogo.pretty")(options "")(descr ""))
 )
