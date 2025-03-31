@@ -8,6 +8,8 @@ This directory contains Gerber files for the PCB, a BOM file with LCSC numbers f
 
 Be careful with the orientation of the debug board FPC connector. Pin 1 is indicated on the board. When placed correctly on both the Open LCC and Debug board, you should use an FPC cable with *connectors on opposite sides*. If for some reason the connector is incorrectly oriented, you'll still be able to use the boards, but you may need an FPC cable with connectors on the *same* side. 
 
+If you have _any_ doubt as to the orientation of the connector, it's a good idea to check for continuity between e.g. the USB D+/D- pins on the main board, and the D+/D- pins of the USB connector of the debug board *before applying power*. Applying power with reversed polarity can fry your board. 
+
 Orientations in general are a bit of a pain. I recommend checking the "Confirm production files" option on JLCPCB, to be able to verify that the orientations of all the components match the PCB and schematic.
 
 ## Parts you'll need from other vendors
